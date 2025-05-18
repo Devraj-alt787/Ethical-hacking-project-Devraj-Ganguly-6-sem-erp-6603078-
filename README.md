@@ -13,6 +13,7 @@ Identify outdated services and recommend security remediations
 
 🖥 Operating Systems
 Kali Linux – Attacker Machine
+
 Metasploitable 2 – Target Machine
 
 🛠 Tools Used
@@ -40,13 +41,3 @@ vsftpd 2.3.4 backdoor
 SMB 3.0.20-Debian using Metasploit
 Rexec/Rlogin/Rsh services using script-based vulnerabilities
 
-👤 Privilege Escalation
-Created user rahul with root permissions
-Extracted and cracked password hash using John the Ripper
-
-instead
-📚 Major Learning
-Through this project, I learned how to create and manage users in Linux, analyze system files, crack password hashes, and detect services using Nmap. I practiced using commands like nmap -sV, nmap -O, and john to identify system weaknesses. I also understood how outdated services like FTP, SMB, and R services pose serious security risks and how to patch or replace them.
-
-⚠ Disclaimer
-This project is for educational purposes only. All activities were performed in a safe, offline lab environment. Do not attempt these techniques on real networks without explicit permission
