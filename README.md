@@ -1,10 +1,11 @@
-### AUTHOR - Devraj ganguly
-- erp no - 6603078
-- class- cse(cyber security) 6seM
 
-### PROJECT OVERVIEV  -
 
 # 🛡 Network Penetration Testing with Real-World Exploits and Security Remediation
+
+- AUTHOR - Devraj Ganguly 
+- class- cse(cyber security) 6seM
+
+## PROJECT OVERVIEV  -
 
 ### Introduction -
 This project simulates real-world network attacks and defense strategies using Kali Linux as the attacker machine and Metasploitable as the target.
@@ -68,6 +69,36 @@ Identify outdated services and recommend security remediations.
 ### 👤 Privilege Escalation
 - Created user `Devraj` with root permissions
 - Extracted and cracked password hash using John the Ripper
+
+**Command Used:**
+```bash
+adduser devraj
+```
+
+**Results:**
+
+In `/etc/passwd`:
+```
+devraj:x:1001:1001:/home/devraj:/bin/bash
+```
+
+In `/etc/shadow`:
+```
+devraj:$1$8nWuasXV$pk6ZABfqT9NoHv1pPX8Rj.
+```
+
+---
+
+### 🔹: Password Hash Cracking
+
+**Tool Used:** John the Ripper  
+**Command:**
+```bash
+john hashes.txt
+john hashes.txt --show
+```
+
+✅ **Cracked Password:** `hello`
 
  ---
  
