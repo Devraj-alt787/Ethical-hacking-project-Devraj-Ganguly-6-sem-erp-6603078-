@@ -79,7 +79,6 @@ In `/etc/shadow`:
 devraj:$1$8nWuasXV$pk6ZABfqT9NoHv1pPX8Rj.
 ```
 
----
 
 ### 🔹: Password Hash Cracking
 
