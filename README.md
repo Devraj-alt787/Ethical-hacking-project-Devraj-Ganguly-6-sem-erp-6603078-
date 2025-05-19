@@ -36,7 +36,6 @@ Identify outdated services and recommend security remediations.
 
 ---
 
-
 ## 🚀 Tasks Performed
 
 ### 🔍 Network Scanning
@@ -48,14 +47,6 @@ Identify outdated services and recommend security remediations.
 ### 🔐 Hidden Ports Discovered
 - Ports like '8787','36588', '53204', etc., 
 - found through full port scans.
-
-
-## Theory About the Project:
-
-### Penetration testing involves a systematic process:
-- Scanning - Identify live hosts and open ports.
-
-- Reconnaissance Gather intel about the target.
 
 ### 📡 Enumeration
 - OS: Linux 2.6.x (Metasploitable)
