@@ -3,7 +3,7 @@
 # 🛡 Network Penetration Testing with Real-World Exploits and Security Remediation
 
 - AUTHOR - Devraj Ganguly 
-- class- cse(cyber security) 6seM
+- class - cse(cyber security) 6 sem
 
 ## PROJECT OVERVIEV  -
 
@@ -18,6 +18,7 @@ Understand and simulate real-world network attacks
 Perform scanning, enumeration, and exploitation using tools like Nmap and Metasploit
 Crack Linux password hashes using John the Ripper
 Identify outdated services and recommend security remediations.
+
 ---
 
 ## 💻 Lab Setup
@@ -49,9 +50,9 @@ Identify outdated services and recommend security remediations.
 - found through full port scans.
 
 
-### Theory About the Project:
+## Theory About the Project:
 
-# Penetration testing involves a systematic process:
+### Penetration testing involves a systematic process:
 - Scanning - Identify live hosts and open ports.
 
 - Reconnaissance Gather intel about the target.
