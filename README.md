@@ -1,12 +1,10 @@
-## AUTHOR - Devraj ganguly
+### AUTHOR - Devraj ganguly
 - erp no - 6603078
 - class- cse(cyber security) 6seM
 
 ### PROJECT OVERVIEV  -
 
 # 🛡 Network Penetration Testing with Real-World Exploits and Security Remediation
-
----
 
 ### Introduction -
 This project simulates real-world network attacks and defense strategies using Kali Linux as the attacker machine and Metasploitable as the target.
@@ -33,6 +31,9 @@ Identify outdated services and recommend security remediations.
 - 'Metasploit' – Exploitation
 - 'John the Ripper' – Password hash cracking
 - 'Linux built-in' commands – user management and enumeration
+
+---
+
 
 ## 🚀 Tasks Performed
 
@@ -64,6 +65,12 @@ Identify outdated services and recommend security remediations.
 - **SMB 3.0.20-Debian** using Metasploit
 - **Rexec/Rlogin/Rsh** services using script-based vulnerabilities
 
+### 👤 Privilege Escalation
+- Created user `Devraj` with root permissions
+- Extracted and cracked password hash using John the Ripper
+
+ ---
+ 
 ## 🎓 Major Learnings
 Conducted deep network scans using Nmap
 Performed real-world exploitation with Metasploit
